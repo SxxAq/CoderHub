@@ -9,6 +9,7 @@
 
 :root{
     --color-primary:#A8D8EA;
+    --color-primaryy:#6c63ff;
     --color-success:#00FFAB;
     --color-warning:#FFD93D;
     --color-danger:#bd2546;
@@ -101,6 +102,13 @@ nav{
     position: fixed;
     top: 0;
     z-index: 11;
+}
+
+/* =========on Scroll====================== */
+.window-scroll {
+    background: var(--color-primaryy);
+   
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .nav__container {
     height: 100%;
