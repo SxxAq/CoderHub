@@ -216,3 +216,68 @@ nav button{
     font-size: 0.85rem;
  }
  
+
+ /* --------------------Popular Courses---------------------- */
+ .courses {
+    margin-top: 10rem;
+ }
+ .courses__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+ }
+ .course {
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+ }
+ .course:hover {
+    background: transparent;
+    border-color: var(--color-primaryy);
+ }
+ .course__info {
+    padding: 2rem;
+
+ }
+ .course__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+
+
+ }
+ /* -----------------------------FAQs----------------------------- */
+ .faqs{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+ }
+ .faqs__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+ }
+ .faq {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background: var(--color-primaryy);
+    cursor: pointer;
+ }
+ .faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+ }
+ .faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+ }
+ .faq p{
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    display: none;
+ }
+ .faq.open p {
+    display: block;
+ }
