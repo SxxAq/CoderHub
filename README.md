@@ -1,1 +1,1 @@
-# CoderHub
+# CourseHub
